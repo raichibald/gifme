@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65C5BEA0B0B87BA9E8CBF7CB /* Pods_gif_me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A699E066CC75B7778A35792 /* Pods_gif_me.framework */; };
+		B309976B262ECCEF00E5066E /* GifCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309976A262ECCEF00E5066E /* GifCollectionViewCell.swift */; };
+		B309976F262ED7D500E5066E /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309976E262ED7D500E5066E /* Gif.swift */; };
 		B3FBD9A4262DF1B900782622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBD9A3262DF1B900782622 /* AppDelegate.swift */; };
 		B3FBD9A6262DF1B900782622 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBD9A5262DF1B900782622 /* SceneDelegate.swift */; };
-		B3FBD9A8262DF1B900782622 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBD9A7262DF1B900782622 /* ViewController.swift */; };
+		B3FBD9A8262DF1B900782622 /* GifGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBD9A7262DF1B900782622 /* GifGridViewController.swift */; };
 		B3FBD9AB262DF1B900782622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FBD9A9262DF1B900782622 /* Main.storyboard */; };
 		B3FBD9AD262DF1BA00782622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FBD9AC262DF1BA00782622 /* Assets.xcassets */; };
 		B3FBD9B0262DF1BA00782622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FBD9AE262DF1BA00782622 /* LaunchScreen.storyboard */; };
+		B3FBD9BA262DF2C600782622 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBD9B9262DF2C600782622 /* Constants.swift */; };
+		B3FBD9BD262DF32B00782622 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBD9BC262DF32B00782622 /* Secrets.swift */; };
+		B3FBD9CC262DF58E00782622 /* GifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBD9CB262DF58E00782622 /* GifManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A699E066CC75B7778A35792 /* Pods_gif_me.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gif_me.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80A7C058A6DB4D0E37974893 /* Pods-gif-me.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gif-me.release.xcconfig"; path = "Target Support Files/Pods-gif-me/Pods-gif-me.release.xcconfig"; sourceTree = "<group>"; };
+		9765842DCA4E6BBD68499EC7 /* Pods-gif-me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gif-me.debug.xcconfig"; path = "Target Support Files/Pods-gif-me/Pods-gif-me.debug.xcconfig"; sourceTree = "<group>"; };
+		B309976A262ECCEF00E5066E /* GifCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCollectionViewCell.swift; sourceTree = "<group>"; };
+		B309976E262ED7D500E5066E /* Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
 		B3FBD9A0262DF1B900782622 /* gif-me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gif-me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FBD9A3262DF1B900782622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3FBD9A5262DF1B900782622 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B3FBD9A7262DF1B900782622 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3FBD9A7262DF1B900782622 /* GifGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifGridViewController.swift; sourceTree = "<group>"; };
 		B3FBD9AA262DF1B900782622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3FBD9AC262DF1BA00782622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3FBD9AF262DF1BA00782622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3FBD9B1262DF1BA00782622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3FBD9B9262DF2C600782622 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B3FBD9BC262DF32B00782622 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		B3FBD9CB262DF58E00782622 /* GifManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65C5BEA0B0B87BA9E8CBF7CB /* Pods_gif_me.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB2FCB4FB1626B9C7B108966 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9765842DCA4E6BBD68499EC7 /* Pods-gif-me.debug.xcconfig */,
+				80A7C058A6DB4D0E37974893 /* Pods-gif-me.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B3FBD997262DF1B900782622 = {
 			isa = PBXGroup;
 			children = (
 				B3FBD9A2262DF1B900782622 /* gif-me */,
 				B3FBD9A1262DF1B900782622 /* Products */,
+				AB2FCB4FB1626B9C7B108966 /* Pods */,
+				C89674FB69FF7466172642C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +84,66 @@
 			children = (
 				B3FBD9A3262DF1B900782622 /* AppDelegate.swift */,
 				B3FBD9A5262DF1B900782622 /* SceneDelegate.swift */,
-				B3FBD9A7262DF1B900782622 /* ViewController.swift */,
-				B3FBD9A9262DF1B900782622 /* Main.storyboard */,
-				B3FBD9AC262DF1BA00782622 /* Assets.xcassets */,
-				B3FBD9AE262DF1BA00782622 /* LaunchScreen.storyboard */,
+				B3FBD9C8262DF55500782622 /* Model */,
+				B3FBD9C7262DF54A00782622 /* View */,
+				B3FBD9C6262DF52700782622 /* ViewModel */,
+				B3FBD9C4262DF4E600782622 /* Controllers */,
+				B3FBD9B9262DF2C600782622 /* Constants.swift */,
+				B3FBD9BC262DF32B00782622 /* Secrets.swift */,
+				B3FBD9C5262DF50000782622 /* Supporting Files */,
 				B3FBD9B1262DF1BA00782622 /* Info.plist */,
 			);
 			path = "gif-me";
+			sourceTree = "<group>";
+		};
+		B3FBD9C4262DF4E600782622 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3FBD9A7262DF1B900782622 /* GifGridViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B3FBD9C5262DF50000782622 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3FBD9AC262DF1BA00782622 /* Assets.xcassets */,
+				B3FBD9AE262DF1BA00782622 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3FBD9C6262DF52700782622 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B3FBD9CB262DF58E00782622 /* GifManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B3FBD9C7262DF54A00782622 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3FBD9A9262DF1B900782622 /* Main.storyboard */,
+				B309976A262ECCEF00E5066E /* GifCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3FBD9C8262DF55500782622 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B309976E262ED7D500E5066E /* Gif.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C89674FB69FF7466172642C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A699E066CC75B7778A35792 /* Pods_gif_me.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3FBD9B4262DF1BA00782622 /* Build configuration list for PBXNativeTarget "gif-me" */;
 			buildPhases = (
+				9AB9C0902F94672E59D7316C /* [CP] Check Pods Manifest.lock */,
 				B3FBD99C262DF1B900782622 /* Sources */,
 				B3FBD99D262DF1B900782622 /* Frameworks */,
 				B3FBD99E262DF1B900782622 /* Resources */,
+				8AD00BD9CEE5DCF264E7A2A6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,12 +213,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8AD00BD9CEE5DCF264E7A2A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gif-me/Pods-gif-me-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gif-me/Pods-gif-me-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gif-me/Pods-gif-me-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB9C0902F94672E59D7316C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gif-me-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B3FBD99C262DF1B900782622 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3FBD9A8262DF1B900782622 /* ViewController.swift in Sources */,
+				B3FBD9CC262DF58E00782622 /* GifManager.swift in Sources */,
+				B3FBD9A8262DF1B900782622 /* GifGridViewController.swift in Sources */,
+				B309976F262ED7D500E5066E /* Gif.swift in Sources */,
+				B309976B262ECCEF00E5066E /* GifCollectionViewCell.swift in Sources */,
+				B3FBD9BD262DF32B00782622 /* Secrets.swift in Sources */,
+				B3FBD9BA262DF2C600782622 /* Constants.swift in Sources */,
 				B3FBD9A4262DF1B900782622 /* AppDelegate.swift in Sources */,
 				B3FBD9A6262DF1B900782622 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +411,7 @@
 		};
 		B3FBD9B5262DF1BA00782622 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9765842DCA4E6BBD68499EC7 /* Pods-gif-me.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +431,7 @@
 		};
 		B3FBD9B6262DF1BA00782622 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A7C058A6DB4D0E37974893 /* Pods-gif-me.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
