@@ -10,6 +10,7 @@
 		65C5BEA0B0B87BA9E8CBF7CB /* Pods_gif_me.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A699E066CC75B7778A35792 /* Pods_gif_me.framework */; };
 		B309976B262ECCEF00E5066E /* GifCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309976A262ECCEF00E5066E /* GifCollectionViewCell.swift */; };
 		B309976F262ED7D500E5066E /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = B309976E262ED7D500E5066E /* Gif.swift */; };
+		B3996A5B26303AC600EE0315 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3996A5A26303AC600EE0315 /* Secrets.swift */; };
 		B3FBD9A4262DF1B900782622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBD9A3262DF1B900782622 /* AppDelegate.swift */; };
 		B3FBD9A6262DF1B900782622 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBD9A5262DF1B900782622 /* SceneDelegate.swift */; };
 		B3FBD9A8262DF1B900782622 /* GifGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBD9A7262DF1B900782622 /* GifGridViewController.swift */; };
@@ -17,7 +18,6 @@
 		B3FBD9AD262DF1BA00782622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3FBD9AC262DF1BA00782622 /* Assets.xcassets */; };
 		B3FBD9B0262DF1BA00782622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3FBD9AE262DF1BA00782622 /* LaunchScreen.storyboard */; };
 		B3FBD9BA262DF2C600782622 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBD9B9262DF2C600782622 /* Constants.swift */; };
-		B3FBD9BD262DF32B00782622 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBD9BC262DF32B00782622 /* Secrets.swift */; };
 		B3FBD9CC262DF58E00782622 /* GifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3FBD9CB262DF58E00782622 /* GifManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +27,7 @@
 		9765842DCA4E6BBD68499EC7 /* Pods-gif-me.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gif-me.debug.xcconfig"; path = "Target Support Files/Pods-gif-me/Pods-gif-me.debug.xcconfig"; sourceTree = "<group>"; };
 		B309976A262ECCEF00E5066E /* GifCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCollectionViewCell.swift; sourceTree = "<group>"; };
 		B309976E262ED7D500E5066E /* Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
+		B3996A5A26303AC600EE0315 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Secrets.swift; path = "/Users/raitissaripo/Desktop/gif-me/gif-me/Controllers/Secrets.swift"; sourceTree = "<absolute>"; };
 		B3FBD9A0262DF1B900782622 /* gif-me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gif-me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3FBD9A3262DF1B900782622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3FBD9A5262DF1B900782622 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,7 +37,6 @@
 		B3FBD9AF262DF1BA00782622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3FBD9B1262DF1BA00782622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3FBD9B9262DF2C600782622 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		B3FBD9BC262DF32B00782622 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		B3FBD9CB262DF58E00782622 /* GifManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,7 +89,7 @@
 				B3FBD9C6262DF52700782622 /* ViewModel */,
 				B3FBD9C4262DF4E600782622 /* Controllers */,
 				B3FBD9B9262DF2C600782622 /* Constants.swift */,
-				B3FBD9BC262DF32B00782622 /* Secrets.swift */,
+				B3996A5A26303AC600EE0315 /* Secrets.swift */,
 				B3FBD9C5262DF50000782622 /* Supporting Files */,
 				B3FBD9B1262DF1BA00782622 /* Info.plist */,
 			);
@@ -261,10 +261,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3FBD9CC262DF58E00782622 /* GifManager.swift in Sources */,
+				B3996A5B26303AC600EE0315 /* Secrets.swift in Sources */,
 				B3FBD9A8262DF1B900782622 /* GifGridViewController.swift in Sources */,
 				B309976F262ED7D500E5066E /* Gif.swift in Sources */,
 				B309976B262ECCEF00E5066E /* GifCollectionViewCell.swift in Sources */,
-				B3FBD9BD262DF32B00782622 /* Secrets.swift in Sources */,
 				B3FBD9BA262DF2C600782622 /* Constants.swift in Sources */,
 				B3FBD9A4262DF1B900782622 /* AppDelegate.swift in Sources */,
 				B3FBD9A6262DF1B900782622 /* SceneDelegate.swift in Sources */,
