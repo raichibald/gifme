@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/raitissaripo/Desktop/gif-me/gif-me/Controllers/Secrets.swift">
-   </FileRef>
-   <FileRef
       location = "group:gif-me.xcodeproj">
    </FileRef>
    <FileRef
